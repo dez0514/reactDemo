@@ -1,0 +1,42 @@
+@import '../../styles/base.scss';
+.banner-wrap {
+    overflow: hidden;
+    width: 100%;
+    height: Px(300);
+    background: #F4F4F4;
+    .ban-swiper {
+        overflow: hidden;
+        height: Px(300);
+        .banner-pic {
+            display: block;
+            width: 100%;
+        }
+        .swiper-pagination-fraction {
+            position: absolute;
+            bottom: Px(15) !important;
+            // left: Px(320) !important;
+            left: unset;
+            right: Px(15);
+            box-sizing: border-box;
+            width: Px(40);
+            height: Px(20);
+            line-height: Px(20);
+            font-size: Px(12);
+            color: #999999;
+            background: #FFFDFF;
+            border: 1px solid #979797;
+            border-radius: Px(5);
+            text-align: center;
+        }
+        .swiper-pagination {
+            position: absolute;
+            text-align: center;
+            -webkit-transition: .3s opacity;
+            -o-transition: .3s opacity;
+            transition: .3s opacity;
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+            z-index: 10;
+        }
+    }
+}

@@ -1,0 +1,144 @@
+@import '../../styles/base.scss';
+
+.orderconfirm-container {
+    .item-wrap {
+        overflow: hidden;
+        box-sizing: border-box;
+        margin-top: Px(10);
+        padding: 0 Px(10);
+        font-size: Px(14);
+        color: #666666;
+        background: #fff;
+
+        .item {
+            overflow: hidden;
+            height: Px(45);
+            line-height: Px(45);
+            width: 100%;
+
+            .cheyoo-money,
+            .cheyoo-money .cheyoo-txt {
+                overflow: hidden;
+                float: left;
+            }
+
+            .goodsnum {
+                float: right;
+                margin-left: Px(10);
+                font-size: Px(12);
+                color: #666666;
+            }
+
+            .total {
+                float: right;
+                font-size: Px(18);
+            }
+
+            .total span {
+                font-size: Px(12);
+            }
+
+            .cheyoo-money .cheyoo-icon {
+                float: left;
+                display: block;
+                margin-top: Px(13);
+                width: Px(19);
+            }
+
+            .cheyoo-money .cheyoo-num {
+                float: left;
+                margin-left: Px(5);
+                margin-right: Px(10);
+                font-size: Px(12);
+                color: #222222;
+            }
+
+            .switch-btn {
+                overflow: hidden;
+                float: right;
+                margin-top: Px(7);
+                width: Px(51);
+
+                // height: Px(31);
+                img {
+                    display: block;
+                    width: Px(51);
+                }
+            }
+
+        }
+    }
+
+    .bottom-blank {
+        width: 100%;
+        height: Px(64);
+    }
+
+    .bottom-wrap {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: Px(64);
+        background: #fff;
+
+        .total-money-wrap {
+            position: absolute;
+            top: 50%;
+            left: Px(10);
+            transform: translateY(-50%);
+            overflow: hidden;
+            float: left;
+            width: Px(178);
+        }
+
+        .total-money-wrap .total-money-txt {
+            float: left;
+            line-height: Px(24);
+            font-size: Px(14);
+            color: #222222;
+        }
+
+        .total-money-wrap .total-money {
+            float: left;
+            font-size: Px(18);
+
+            span {
+                font-size: Px(12);
+            }
+        }
+
+        .sure-btn {
+            float: right;
+            margin: Px(10);
+            width: Px(166);
+            height: Px(44);
+            line-height: Px(44);
+            text-align: center;
+            font-size: Px(16);
+            color: #fff;
+            background-image: linear-gradient(-180deg, #FBA302 0%, #F56A01 100%);
+            border-radius: Px(5);
+        }
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .bordertop {
+        border-top: 1px solid #E9E9E9;
+    }
+
+    .margintop0 {
+        margin-top: 0;
+    }
+
+    .orgcolor {
+        color: #F56A01;
+    }
+}

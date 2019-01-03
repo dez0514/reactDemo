@@ -1,0 +1,107 @@
+@import '../../styles/base.scss';
+
+.ordercallback-container {
+    .banner {
+        overflow: hidden;
+        padding: Px(30);
+        background: #fff;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: Px(42);
+        }
+
+        p {
+            margin-top: Px(7);
+            font-size: Px(18);
+            color: #F67A02;
+            text-align: center;
+
+            &.failcolor {
+                color: #222222;
+            }
+        }
+    }
+
+    .con {
+        margin-top: Px(10);
+        padding: 0 Px(10) Px(10);
+        overflow: hidden;
+        font-size: Px(14);
+        background: #fff;
+
+        .con-item {
+            overflow: hidden;
+            margin-top: Px(10);
+
+            .tit {
+                float: left;
+                color: #999999;
+            }
+
+            .desc {
+                float: right;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: Px(310);
+                color: #222222;
+                text-align: right;
+            }
+
+            &.fail {
+                text-align: center;
+                color: #999999;
+            }
+
+            &.total {
+                box-sizing: border-box;
+                border-top: 1px solid #E9E9E9;
+                padding-top: Px(10);
+            }
+        }
+    }
+
+    .refresh {
+        box-sizing: border-box;
+        margin: Px(20) Px(10);
+        height: Px(44);
+        line-height: Px(44);
+        text-align: center;
+        font-size: Px(16);
+        border-radius: Px(5);
+        background-image: linear-gradient(-180deg, #FBA302 0%, #F56A01 100%);
+        color: #fff;
+    }
+
+    .btn-wrap {
+        overflow: hidden;
+        margin: Px(20) Px(10);
+
+        .btn {
+            box-sizing: border-box;
+            height: Px(44);
+            line-height: Px(44);
+            width: Px(166);
+            text-align: center;
+            font-size: Px(16);
+            border-radius: Px(5);
+
+            &.lookorder {
+                float: left;
+                line-height: Px(42);
+                // background: #fff;
+                border: Px(2) solid #F56A01;
+                color: #F56A01;
+            }
+
+            &.continue {
+                float: right;
+                background-image: linear-gradient(-180deg, #FBA302 0%, #F56A01 100%);
+                color: #fff;
+            }
+        }
+    }
+
+}

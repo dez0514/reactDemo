@@ -1,0 +1,126 @@
+@import '../../styles/base.scss';
+
+.list-item {
+    overflow: hidden;
+    padding: Px(10);
+    margin-top: Px(10);
+    background: #fff;
+
+    .state-wrap {
+        overflow: hidden;
+        font-size: Px(14);
+        color: #999999;
+
+        .state {
+            float: left;
+        }
+
+        .state-tip {
+            float: right;
+            color: #F56A01;
+        }
+    }
+
+    .ordergoods-wrap {
+        overflow: hidden;
+        box-sizing: border-box;
+        // padding: 0 Px(10);
+        margin-top: Px(5);
+        background: #fff;
+        font-size: Px(14);
+        color: #222222;
+
+        .pic-wrap {
+            position: relative;
+            overflow: hidden;
+            float: left;
+            margin: Px(10) Px(10) 0 0;
+            width: Px(100);
+            height: Px(100);
+            background: #F4F4F4;
+
+            img {
+                position: absolute;
+                display: block;
+                max-width: Px(100);
+                max-height: Px(100);
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .goods-info {
+            float: left;
+            overflow: hidden;
+            width: Px(244);
+
+            .goodname {
+                overflow: hidden;
+                font-size: Px(14);
+                color: #222222;
+            }
+
+            .goodtips {
+                overflow: hidden;
+                font-size: Px(12);
+                color: #999999;
+            }
+
+            .goodname .goods,
+            .goodtips .tips {
+                float: left;
+                margin-top: Px(10);
+                width: Px(155);
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            .goodname .price,
+            .goodtips .num {
+                float: right;
+                margin-top: Px(10);
+            }
+
+            .goodtotal {
+                overflow: hidden;
+                margin-top: Px(10);
+                font-size: Px(12);
+                color: #666;
+
+                .num {
+                    float: left;
+                    line-height: Px(21);
+                }
+
+                .total {
+                    float: right;
+                    line-height: Px(21);
+                }
+
+                .money {
+                    float: right;
+                    font-size: Px(16);
+                    color: #222222;
+                }
+            }
+
+            .btn-invoice {
+                float: right;
+                margin-top: Px(10);
+                box-sizing: border-box;
+                height: Px(30);
+                line-height: Px(30);
+                text-align: center;
+                width: Px(88);
+                font-size: Px(14);
+                color: #F56A01;
+                border: 1px solid #F56A01;
+                border-radius: Px(100);
+            }
+        }
+    }
+}

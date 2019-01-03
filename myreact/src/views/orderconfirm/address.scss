@@ -1,0 +1,73 @@
+@import '../../styles/base.scss';
+
+.address-components {
+    .add-address {
+        overflow: hidden;
+        background: #fff;
+        height: Px(54);
+        line-height: Px(54);
+
+        img {
+            display: block;
+            float: left;
+            margin-top: Px(14);
+            margin-left: Px(122);
+            width: Px(25);
+        }
+
+        div {
+            float: left;
+            margin-left: Px(10);
+            font-size: Px(16);
+            color: #666666;
+        }
+    }
+
+    .address {
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 100%;
+        padding: Px(15) Px(42);
+        background: #fff;
+        font-size: Px(14);
+        color: #222222;
+
+        .ico {
+            display: block;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            &.local {
+                left: Px(12);
+                width: Px(15);
+            }
+
+            &.enter {
+                right: Px(12);
+                width: Px(10);
+            }
+        }
+
+        .info-wrap {
+            overflow: hidden;
+
+            .userinfo {
+                overflow: hidden;
+            }
+
+            .place {
+                margin-top: Px(10);
+            }
+        }
+    }
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}

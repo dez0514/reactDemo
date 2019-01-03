@@ -1,0 +1,28 @@
+@import '../../styles/base.scss';
+.tabwrap {
+    overflow: hidden;
+    height: Px(44);
+    width: 100%;
+    text-align: center;
+    background: #F9F9F9;
+
+    .tab-item {
+      float: left;
+      width: 50%;
+      font-size: Px(16);
+
+    }
+
+    .tab-item span {
+      display: inline-block;
+      box-sizing: border-box;
+      line-height: Px(42);
+      color: #999999;
+      border-bottom: Px(2) solid #F9F9F9;
+
+      &.act {
+        border-bottom: Px(2) solid #F56A01;
+        color: #222;
+      }
+    }
+  }

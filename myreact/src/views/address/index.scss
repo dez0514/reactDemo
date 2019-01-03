@@ -1,0 +1,68 @@
+@import '../../styles/base.scss';
+.address-container{
+    .input-wrap {
+        overflow: hidden;
+        padding: 0 Px(10);
+        background: #fff;
+      }
+    
+      input {
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        font-size: Px(14);
+        color: black;
+        height: Px(42);
+        width: 100%;
+        border-bottom: 1px solid #E9E9E9;
+      }
+    
+      input::-webkit-input-placeholder,
+      textarea::-webkit-input-placeholder {
+        color: #ccc;
+        font-size: Px(14);
+      }
+    
+      input::-moz-placeholder,
+      textarea::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #ccc;
+        font-size: Px(14);
+      }
+    
+      input:-moz-placeholder,
+      textarea:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #ccc;
+        font-size: Px(14);
+      }
+    
+      input:-ms-input-placeholder,
+      textarea:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #ccc;
+        font-size: Px(14);
+      }
+    
+      textarea {
+        box-sizing: border-box;
+        padding: Px(10) 0;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-size: Px(14);
+        height: Px(84);
+        width: 100%;
+      }
+    
+      .btn {
+        margin: Px(20) auto 0;
+        color: #fff;
+        text-align: center;
+        height: Px(44);
+        line-height: Px(44);
+        width: Px(355);
+        background-image: linear-gradient(-180deg, #FBA302 0%, #F56A01 100%);
+        border-radius: Px(5);
+      }
+}

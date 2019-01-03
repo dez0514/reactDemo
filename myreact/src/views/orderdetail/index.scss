@@ -1,0 +1,179 @@
+@import '../../styles/base.scss';
+
+.orderconfirm-container {
+    overflow: hidden;
+
+    .ban {
+        position: relative;
+        overflow: hidden;
+        height: Px(134);
+        width: 100%;
+        background-image: linear-gradient(90deg, #FF8F00 4%, #FE5200 100%);
+
+        .ban-left {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: Px(30);
+            width: Px(205);
+            color: #fff;
+
+            .state {
+                font-size: Px(16);
+            }
+
+            .orde-code {
+                margin-top: Px(8);
+                font-size: Px(14);
+            }
+        }
+
+        img {
+            display: block;
+            float: right;
+            width: Px(134);
+        }
+    }
+
+    .address-wrap {
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: Px(15) Px(10) Px(15) Px(50);
+        margin-top: Px(10);
+        background: #fff;
+        font-size: Px(14);
+        color: #222222;
+
+        img {
+            position: absolute;
+            left: Px(10);
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+            width: Px(30);
+        }
+
+        .userdesc {
+            overflow: hidden;
+
+            .name {
+                float: left;
+            }
+
+            .phone {
+                float: right;
+            }
+        }
+
+        .address {
+            margin-top: Px(10);
+        }
+    }
+
+    .goods-wrap {
+        overflow: hidden;
+        box-sizing: border-box;
+        height: Px(120);
+        padding: 0 Px(10);
+        margin-top: Px(10);
+        background: #fff;
+        font-size: Px(14);
+        color: #222222;
+
+        .pic-wrap {
+            position: relative;
+            overflow: hidden;
+            float: left;
+            margin: Px(10) Px(10) Px(10) 0;
+            width: Px(100);
+            height: Px(100);
+            background: #F4F4F4;
+
+            img {
+                position: absolute;
+                display: block;
+                max-width: Px(100);
+                max-height: Px(100);
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .goods-info {
+            float: left;
+            overflow: hidden;
+            width: Px(244);
+
+            .goodname {
+                overflow: hidden;
+                font-size: Px(14);
+                color: #222222;
+            }
+
+            .goodtips {
+                overflow: hidden;
+                font-size: Px(12);
+                color: #999999;
+            }
+
+            .goodname .goods,
+            .goodtips .tips {
+                float: left;
+                margin-top: Px(10);
+                width: Px(155);
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            .goodname .price,
+            .goodtips .num {
+                float: right;
+                margin-top: Px(10);
+            }
+        }
+    }
+
+    .price-desc {
+        overflow: hidden;
+        margin-top: Px(10);
+        background: #fff;
+        padding: 0 Px(10) Px(10) Px(10);
+        font-size: Px(12);
+        color: #999999;
+
+        .price-item {
+            overflow: hidden;
+            margin-top: Px(10);
+
+            .tit {
+                float: left;
+            }
+
+            .price-num {
+                float: right;
+            }
+        }
+    }
+
+    .font14 {
+        font-size: Px(14);
+    }
+
+    .blackcolor {
+        color: #222222;
+    }
+
+    .orgcolor {
+        color: #F56A01;
+    }
+
+    .borderbot {
+        padding-bottom: Px(10);
+        border-bottom: 1px solid #E9E9E9;
+    }
+}

@@ -1,0 +1,77 @@
+@import '../../styles/base.scss';
+
+.detailcard-component {
+    overflow: hidden;
+    .goods-wrap {
+        overflow: hidden;
+        margin-top: Px(10);
+        box-sizing: border-box;
+        padding: 0 Px(10);
+        height: Px(120);
+        width: 100%;
+        background: #fff;
+
+        .pic-wrap {
+            position: relative;
+            float: left;
+            margin: Px(10) Px(10) Px(10) 0;
+            width: Px(100);
+            height: Px(100);
+            background: #F4F4F4;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                max-width: Px(100);
+                max-height: Px(100);
+            }
+        }
+    }
+
+    .goods-info {
+        float: left;
+        width: Px(245);
+
+        .name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-top: Px(10);
+            font-size: Px(16);
+            color: #222222;
+        }
+
+        .price-wrap {
+            overflow: hidden;
+            margin-top: Px(20);
+
+            .price {
+                float: left;
+                font-size: Px(18);
+                color: #F56A01;
+            }
+
+            .price span {
+                font-size: Px(12);
+            }
+
+            .num {
+                float: right;
+                margin-top: Px(2);
+                font-size: Px(14);
+                color: #666666;
+            }
+        }
+
+        .intro {
+            overflow: hidden;
+            margin-top: Px(20);
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: Px(12);
+            color: #999999;
+        }
+    }
+}

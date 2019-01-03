@@ -1,0 +1,40 @@
+@import '../../styles/base.scss';
+.goods {
+    overflow: hidden;
+    padding-bottom: Px(20);
+    width: 100%;
+    .goods-pic {
+        position: relative;
+        width: 100%;
+        height: Px(172);
+        background: #F4F4F4;
+    }
+    .goods-pic img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: Px(152);
+        max-height: Px(152);
+    }
+    .goods-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: Px(16);
+        color: #222222;
+        line-height: Px(34);
+    }
+    .goods-price {
+        font-size: Px(16);
+        color: #F56A01;
+    }
+    .goods-price span {
+        font-size: Px(12);
+        color: #F56A01;
+    }
+    .restnum {
+        font-size: Px(12);
+        color: #999999;
+    }
+}

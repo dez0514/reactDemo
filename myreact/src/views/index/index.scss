@@ -1,0 +1,69 @@
+@import '../../styles/base.scss';
+.home-container {
+    min-height: 100vh;
+    background: #fff;
+    .top-tip {
+        box-sizing: border-box;
+        padding: 0 Px(10);
+        height: Px(40);
+        width: 100%;
+    
+        img {
+            float: left;
+            display: block;
+            width: Px(19);
+            height: Px(19);
+            margin-top: Px(10);
+        }
+    
+        .cheyoo-coin {
+            float: left;
+            margin-left: Px(5);
+            font-size: Px(12);
+            color: #222222;
+            line-height: Px(40);
+        }
+    
+        .icon-in {
+            float: left;
+            display: block;
+            width: Px(10);
+            margin-top: Px(15);
+            margin-left: Px(5);
+        }
+    
+        .tip {
+            float: right;
+            line-height: Px(40);
+            font-size: Px(10);
+            color: #F56A01;
+        }
+    }
+    .nodata {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: Px(16);
+    }
+    .goods-list {
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 0 Px(10);
+    }
+    
+    .goods-wrap {
+        overflow: hidden;
+        width: Px(172);
+        float: left;
+    }
+    
+    .goods-wrap:nth-of-type(odd) {
+        float: left;
+    }
+    
+    .goods-wrap:nth-of-type(even) {
+        float: right;
+    }
+}

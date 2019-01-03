@@ -1,0 +1,7 @@
+@import '../../styles/base.scss';
+.content {
+    position: relative;
+    overflow: hidden;
+    // min-height: 100vh;
+    min-height: calc(100vh - 44 * 2 / 750 * 10rem);
+}
